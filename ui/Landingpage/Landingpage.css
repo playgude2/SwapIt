@@ -1,0 +1,132 @@
+.container {
+  width: 100px; 
+  height: 100px; 
+  position: fixed;
+  top: 10px;
+  left: 25px;
+}
+.logobottom{
+  font-size: 2rem;
+  position: fixed;
+  top:185px;
+  left:30px;
+}
+.aboutus{
+  background-color:#ffdb99 ;
+  position: fixed;
+  top: 250px;
+  bottom: 250px;
+  right: 210px;
+  left: 210px;
+  font-size:larger;
+height: 80px;
+}
+.login{
+  cursor: pointer;
+  border-radius: 40px;
+  border: 0cap;
+  background-color:#ffdb99 ;  
+  position: fixed;
+  top: 20px;
+  right: 60px;
+  padding: 10px;    
+  /* color: black; */
+  font-weight: bold;
+  transition: opacity 0.1s;
+}
+.login:hover{
+  /* border: 100xp;
+  border-radius: 15px;
+  background-color: rgb(43, 43, 43);
+  color: rgb(255, 255, 255); */
+}
+.login:active{
+  opacity: 0.5;
+}
+.joincommunity{
+  cursor: pointer;
+  border: 0cap;
+  background-color:#ffdb99 ;
+  border-radius: 40px;
+  position: fixed;
+  top: 20px;
+  right: 140px;
+  padding: 10px;    
+  color: black;
+  font-weight: bold;
+  transition: opacity 0.1s;
+}
+.joincommunity:hover{
+  /* border: 100xp;
+  border-radius: 15px;
+  background-color: rgb(43, 43, 43);
+  color: rgb(255, 255, 255); */
+}
+.joincommunity:active{
+  opacity: 0.5;
+} 
+.letter {
+  font-size: 150px;
+  position: absolute;
+}
+.letter1 {
+  color: rgb(0, 0, 0);
+  top: 0;
+  left: 0;
+  transform: translate(50px, 30px);
+}   
+.letter2 {
+  color: rgb(0, 0, 0);
+  top: 0;
+  left: 0;
+}    
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.dropbtn {
+  cursor: pointer;
+  border: 0cap;
+  background-color:#ffdb99 ;
+ 
+  position: fixed;
+  top: 450px;
+     
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.dropbtn:active{
+  opacity: 0.5;
+}
+.dropup {
+  position: fixed;
+  display: inline-block;
+}
+.dropup-content {
+  display: none;
+  position: fixed;
+  background-color: #201c1c;
+  min-width: 160px;
+  bottom: 50px;
+  z-index: 3;
+}
+.dropup-content a {
+  color: black;
+  background-color: aliceblue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropup-content a:hover {
+  background-color: #ccc
+}
+.dropup-content a:active{
+  opacity: 0.5;
+}
+.dropup:hover .dropup-content {
+  display: block;
+}
+.dropup:hover .dropbtn {
+  background-color: #2980B9;
+}

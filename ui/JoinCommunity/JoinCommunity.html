@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Swap Community</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="JoinCommunity.css">
+    
+    
+</head>
+<body>
+
+
+<section class="container mt-5">
+    <h2>Join Our Community</h2>
+    <p>Join our community to start swapping old clothes and toys for children.</p>
+    <button class="btn button" data-toggle="modal" data-target="#joinModal">Join Now</button>
+</section>
+
+<section class="container mt-5">
+    <h2>Swap Deals</h2>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="../assests/pic1.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make up
+                        the bulk of the card's content.
+                      </p>
+                      <a href="#" class="btn">More Details</a>
+                    </div>
+                  </div>
+                </div>
+        </div>
+    <a href="#" class="btn button">Contact</a>
+
+    </div>
+
+</section>
+
+<section class="container mt-5">
+    <h2>Upcoming Events</h2>
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">Event Title 1</h5>
+            <p class="card-text">This is a sample event description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin auctor tristique mi, at efficitur justo. Sed convallis dolor ut ex tempus, at scelerisque tortor laoreet.</p>
+            <p class="card-text">Date and Time: November 10, 2023, 3:00 PM</p>
+        </div>
+    </div>
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">Event Title 2</h5>
+            <p class="card-text">Another sample event description. Suspendisse tincidunt dui in magna tincidunt, vel scelerisque ex tristique. Integer a arcu eu quam tristique elementum.</p>
+            <p class="card-text">Date and Time: November 15, 2023, 2:30 PM</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Event Title 3</h5>
+            <p class="card-text">A third event description. Vivamus nec tristique turpis, id pharetra felis. Donec eget justo nec quam rhoncus tincidunt.</p>
+            <p class="card-text">Date and Time: November 20, 2023, 4:00 PM</p>
+        </div>
+    </div>
+</section>
+
+
+<div class="modal fade" id="joinModal" tabindex="-1" role="dialog" aria-labelledby="joinModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="joinModalLabel">Join Our Community</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" class="form-control" id="address" placeholder="Enter your address">
+                    </div>
+                    <div class="form-group">
+                        <label for="childAge">Child's Age</label>
+                        <input type="number" class="form-control" id="childAge" placeholder="Enter your child's age">
+                    </div>
+                    <div class="form-group">
+                        <label for="childGender">Child's Gender</label>
+                        <input type="text" class="form-control" id="childGender" placeholder="Enter your child's gender">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn button" data-dismiss="modal" data-toggle="modal" data-target="#thanksModal">Join</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="thanksModal" tabindex="-1" role="dialog" aria-labelledby="thanksModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="thanksModalLabel">Thank You for Joining Our Community</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Thank you for joining our community. We look forward to swapping with you!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn button" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>   
+
+<div class="footer">
+    <div class="left">SwapIt 2022 All rights reserved</div>
+    <div class="social">
+      <a href="#" id="instagram">Instagram</a>
+      <a href="#" id="linkedin">LinkedIn</a>
+      <a href="#" id="facebook">Facebook</a>
+    </div>
+    <div class="newsletter">
+      <form>
+        <input type="email" placeholder="Enter your email" />
+        <input type="submit" value="Subscribe" />
+      </form>
+    </div>
+  </div>
+
+
+
+<!-- Include Bootstrap JS and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="JoinCommunity.js"></script>
+
+</body>
+</html>

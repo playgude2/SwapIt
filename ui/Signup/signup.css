@@ -1,0 +1,28 @@
+.custom-form {
+    max-width: 300px; /* Adjust the width as needed */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.custom-logo {
+    width: 72px; /* Adjust the logo width as needed */
+    margin: 0 auto;
+}
+
+.button {
+    background-color: #ffd07b;
+    border-color: #ffd07b;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #ffd07b;
+    border-color: #ffd07b;
+    color:black;
+}
+
+.container{
+    margin-top: 100px;
+}
+
+
